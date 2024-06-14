@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+    margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*----------------------------------
+               Header
+-----------------------------------*/
+.header ul {
+    background-color: hsl(0, 0%, 0%);
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+    overflow: hidden;
+    
+}
+
+.header li {
+    text-align: center;
+}
+
+.header li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    font-optical-sizing: auto;
+    padding: 10px;
+}
+/*----------------------------------
+               Header End
+-----------------------------------*/
+/*----------------------------------
+               topnav
+-----------------------------------*/
+.topnav {
+    background-color: red;
+    overflow: hidden;
+}
+
+.topnav-icon {
+    float: left;
+    
+}
+
+.topnav-icon a {
+    color: white;
+    display: block;
+    padding: 14px 16px;
+}
+
+.nav {
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 16px;
+}
+
+.nav::-webkit-scrollbar {
+  display: none;
+}
+/*----------------------------------
+               topnav End
+-----------------------------------*/
+/*----------------------------------
+               section 1
+-----------------------------------*/
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+    .topnav-icon {display: none}
+    .section1 [class*="figure"] {
+        float: left;
+        width: 33.33%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .section1 .figure-1 {
+        width: 25%;
+    }
+
+    .section1 .figure-2 {
+        width: 50%;
+    }
+
+    .section1 .figure-3 {
+        width: 25%;
+    }
+
+    /* Clear floats after the columns */
+    .section1::after {
+        content: "";
+        display: table;
+        clear: both;
+}
+
+    
+}
+
+
+
+
+</style>
+</head>
+<body>
+ 
+<!--Header-->
+<div class="header">
+    <ul class="header-logo">
+        <li class="logo"><a href="#logo">Pongwat</a></li>
+    </ul>
+
+</div>
+<!--End Header-->
+
+<!------------topnav------------->
+<div class="topnav" id="myTopnav">
+    <div class="topnav-icon">
+    <a href="javascript:void(0)" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i></a>
+    </div>
+    <div class="nav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="#about">About</a>
+        <a href="#about">About</a>
+        <a href="#about">About</a>
+        <a href="#about">About</a>
+        <a href="#about">About</a>
+        <a href="#about">About</a>
+    </div>
+</div>
+<!------------topnav end---------->
+
+<!------------section 1----------->
+<div class="section1">
+
+    <figure class="figure-1">
+        <a href="#"><img src="images/img1.JPG" alt="skydiving" style="width:100%">
+        <figcaption style="font-size: 18px;">To center an image, set left and right margin to auto, and make it into a block element.</figcaption></a>
+    </figure>
+
+    <figure class="figure-2">
+        <a href="#"><img src="images/img1.JPG" alt="skydiving" style="width:100%">
+        <figcaption style="font-size: 18px;">To center an image, set left and right margin to auto, and make it into a block element.</figcaption></a>
+    </figure>
+
+    <figure class="figure-3">
+        <a href="#"><img src="images/img1.JPG" alt="skydiving" style="width:100%">
+        <figcaption style="font-size: 18px;">To center an image, set left and right margin to auto, and make it into a block element.</figcaption></a>
+    </figure>
+
+</div>
+
+<!------------sextion 1 end------->
+
+
+ 
+</body>
+</html>
